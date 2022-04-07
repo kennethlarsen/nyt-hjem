@@ -1,11 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import Layout from "./layout"
 import Title from "./title"
-import useSiteMetadata from "../hooks/use-site-metadata"
 import replaceSlashes from "../utils/replaceSlashes"
-import { visuallyHidden } from "../styles/utils"
 // @ts-ignore
 import Hero from "../texts/hero"
 // @ts-ignore
