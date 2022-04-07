@@ -8,7 +8,7 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
     siteTitle: `Kenneth Larsen`,
-    siteTitleAlt: `Kenneth Larsne`,
+    siteTitleAlt: `Kenneth Larsen`,
     siteHeadline: `Kenneth Larsen`,
     siteUrl: `https://kennethlarsen.org`,
     siteDescription: `Engineering Manager hos Spotify`,
