@@ -14,23 +14,8 @@ import Hero from "../texts/hero"
 // @ts-ignore
 import Bottom from "../texts/bottom"
 
-type PostsProps = {
-  posts: {
-    slug: string
-    title: string
-    date: string
-    excerpt: string
-    description: string
-    timeToRead?: number
-    tags?: {
-      name: string
-      slug: string
-    }[]
-  }[]
-  [key: string]: any
-}
 
-const Homepage = ({ posts }: PostsProps) => {
+const Homepage = () => {
   const { basePath, blogPath } = useMinimalBlogConfig()
   const { siteTitle } = useSiteMetadata()
 
