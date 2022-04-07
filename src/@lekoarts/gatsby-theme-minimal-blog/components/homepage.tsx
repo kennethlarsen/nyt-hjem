@@ -22,7 +22,6 @@ const Homepage = () => {
         <Hero />
       </section>
         <Bottom />
-      </List>
     </Layout>
   )
 }
