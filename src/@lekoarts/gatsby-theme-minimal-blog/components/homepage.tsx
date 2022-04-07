@@ -3,9 +3,6 @@ import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 import Layout from "./layout"
 import Title from "./title"
-import Listing from "./listing"
-import List from "./list"
-import useMinimalBlogConfig from "../hooks/use-minimal-blog-config"
 import useSiteMetadata from "../hooks/use-site-metadata"
 import replaceSlashes from "../utils/replaceSlashes"
 import { visuallyHidden } from "../styles/utils"
@@ -16,7 +13,6 @@ import Bottom from "../texts/bottom"
 
 
 const Homepage = () => {
-  const { basePath, blogPath } = useMinimalBlogConfig()
   const { siteTitle } = useSiteMetadata()
 
   return (
